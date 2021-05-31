@@ -18,8 +18,5 @@ export class HomeComponent implements OnInit {
 
   }
 
-  redireccionarContacto(){
-    return this._router.navigate(['/contacto']);
-  }
-
+  
 }

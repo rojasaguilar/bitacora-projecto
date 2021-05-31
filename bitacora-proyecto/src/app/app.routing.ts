@@ -10,10 +10,10 @@ import { TecnologiasComponent } from "./componentes/tecnologias/tecnologias.comp
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent},
-    {path: '', component: TecnologiasComponent},
-    {path: '', component: ServidorComponent},
-    {path: '', component: NosotrosComponent},
-    {path: '', component: CodigoComponent},
+    {path: 'tecnologias', component: TecnologiasComponent},
+    {path: 'servidor', component: ServidorComponent},
+    {path: 'nosotros', component: NosotrosComponent},
+    {path: 'codigo', component: CodigoComponent},
     {path: '**', component: HomeComponent}
 ];
 
