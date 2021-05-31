@@ -1,14 +1,19 @@
 import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
+import { CodigoComponent } from "./componentes/codigo/codigo.component";
 
-import { AboutComponent } from "./componentes/about/about.component";
-import { ContactComponent } from "./componentes/contact/contact.component";
+
 import { HomeComponent } from "./componentes/Home/Home.component";
+import { NosotrosComponent } from "./componentes/nosotros/nosotros.component";
+import { ServidorComponent } from "./componentes/servidor/servidor.component";
+import { TecnologiasComponent } from "./componentes/tecnologias/tecnologias.component";
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'acerca', component: AboutComponent},
-    {path: 'contacto', component: ContactComponent},
+    {path: '', component: TecnologiasComponent},
+    {path: '', component: ServidorComponent},
+    {path: '', component: NosotrosComponent},
+    {path: '', component: CodigoComponent},
     {path: '**', component: HomeComponent}
 ];
 
